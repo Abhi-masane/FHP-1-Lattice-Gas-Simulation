@@ -31,11 +31,12 @@ Each lattice node has 6 velocity directions (legs) numbered 0–5:
 
 ## Project Structure
 
-├── proj_serial.c      # Serial implementation
-├── proj_parallel.c    # MPI parallel implementation
-├── proj_parallel.sh   # SLURM batch submission script
-├── README.md          # This file
-└── .gitignore         # Git ignore rules
+- **Project Root**
+  - `proj_serial.c` — Serial implementation
+  - `proj_parallel.c` — MPI parallel implementation
+  - `proj_parallel.sh` — SLURM batch submission script
+  - `README.md` — This file
+  - `.gitignore` — Git ignore rules
 
 
 ## Building
